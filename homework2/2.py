@@ -1,0 +1,5 @@
+number_ten = int(input("Введите число в десятичной системе счисления:"))
+number_two = bin(number_ten)
+number_eight  = oct(number_ten)
+print(f"Число в двоичной системе счисления: {number_two[2:]}")
+print(f"Число в восьмиричной системе счисления: {number_eight[2:]}")
